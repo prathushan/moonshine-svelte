@@ -1,6 +1,11 @@
 <script>
+
   import Banner from "../Components/Banner.svelte";
+  import CardsSection from "../Components/CardsSection.svelte";
+
 </script>
-<div style="height: 80vh;">
-<Banner />
-</div>
+
+
+<Banner bannerTitle="Discover Our Trusted Brands" />
+<CardsSection />
+
