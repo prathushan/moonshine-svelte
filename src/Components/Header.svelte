@@ -60,7 +60,8 @@
     }
   
     .logo {
-      height: 50px;
+      height: 85px;
+    width: 100px;
     }
   
     .menu {
