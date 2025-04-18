@@ -12,11 +12,12 @@
 <style>
   .hero {
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
     background: #e8f8f9;
-    height:500px;
+ /*   margin: 2rem auto; */
   }
 
   .hero-text {
@@ -104,6 +105,7 @@
   .hero-image img {
     max-width: 100%;
     max-height: 500px;
+    height:500px;
   }
 </style>
 
