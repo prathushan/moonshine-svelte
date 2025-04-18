@@ -84,7 +84,7 @@
       margin-bottom: 1rem;
     }
   
-    .card-title {
+    /* .card-title {
       font-size: 24px;
       font-weight: 600;
       color: #000;
@@ -92,5 +92,5 @@
       font-family: 'Covered By Your Grace';
       font-weight: 400;   
       line-height: 66px;
-    }
+    } */
   </style>
