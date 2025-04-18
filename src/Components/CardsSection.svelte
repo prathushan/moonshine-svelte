@@ -90,10 +90,7 @@
       color: #000;
       text-align: center;
       font-family: 'Covered By Your Grace';
-      font-weight: 400;
-    
+      font-weight: 400;   
       line-height: 66px;
     }
   </style>
-
-  
