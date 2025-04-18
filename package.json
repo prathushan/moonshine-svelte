@@ -9,13 +9,17 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		 "postinstall": "npm rebuild"
+           
 	},
+	
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^4.0.0",
 		"@sveltejs/adapter-cloudflare": "^7.0.1",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"rollup": "^3.29.5",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
@@ -23,6 +27,11 @@
 	},
 	"dependencies": {
 		"@portabletext/svelte": "^3.0.0",
-		"@sanity/client": "^6.29.0"
-	}
-}
+		"@sanity/client": "^6.29.0",
+		"rollup": "^3.29.4"
+	},
+	"engines": {
+		"node": "20.x"
+	},}
+
+
