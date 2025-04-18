@@ -1,3 +1,4 @@
+
 <script>
     import { onMount } from 'svelte';
     import { client } from '$lib/sanityClient';
@@ -94,3 +95,4 @@
       line-height: 66px;
     } */
   </style>
+
